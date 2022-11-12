@@ -191,12 +191,25 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
       </div>
     </div>
-
-     
-
   </div>
 </section>
+{/* subscribe section */}
 
+<section className='subscribe'>
+  <div className='container'>
+    <div className='row'>
+      <div className='col-lg-12 col-md-12'>
+        <h2>Hurry up! Subscribe our newsletter
+and get 25% Off</h2>
+<p>Limited time offer for this month. No credit card required.</p>
+<div>
+  <input type="email" placeholder='email address here' ></input>
+  <button><a href='#'>subscribe </a></button>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
     </Fragment>
   )
 }
