@@ -5,6 +5,11 @@ import chicken from '../../images/chicken.jpg'
 import foods from '../../images/foods.jpg'
 import './Home.css'
 import Data from '../../Data'
+import Carousel from 'react-bootstrap/Carousel';
+import person1 from '../../images/person1.jpg'
+import person2 from '../../images/person2.jpg'
+import person3 from '../../images/person3.jpg'
+
 export default function Home() {
   const blogitems = Data.map((item)=>{
     return(
@@ -110,6 +115,62 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
 {blogitems}
   </div>
 </section>
+
+{/* slider section */}
+<section className='slider'>
+<div className='container'>
+  <div className='row'>
+    <div className='col-lg-12 col-md-12'>
+      <h2>Administration</h2>
+    </div>
+  </div>
+  <div className='row'>
+    <div className='col-lg-12 col-md-12'>
+
+
+    <Carousel>
+      <Carousel.Item>
+        <img src={person1}     />
+        <Carousel.Caption>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <span>The Cheff</span>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+       <img src={person2}     />
+
+      
+
+        <Carousel.Caption>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <span>The Cheff assistant</span>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={person3}     />
+
+
+        <Carousel.Caption>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+          <span>The Cheff assistant</span>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  
+    </div>
+  </div>
+</div>
+
+
+
+
+</section>
+
+
 
     </Fragment>
   )
