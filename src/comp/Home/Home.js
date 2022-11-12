@@ -164,13 +164,38 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
     </div>
   </div>
 </div>
-
-
-
-
 </section>
+{/* questions section  */}
+<section className='questions'>
+  <div className='container'>
 
+  <div className='row'>
+<h2 className='qhead'>Frequently Asked Questions</h2>
+  </div>
 
+    <div className='row'>
+      <div className='col-lg-6'>
+        <h4><span>~</span> Is Foodera Bread really baked fresh each day?</h4>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+      </div>
+      <div className='col-lg-6'>
+        <h4><span>~</span> Is Foodera Bread really baked fresh each day?</h4>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+      </div>
+      <div className='col-lg-6'>
+        <h4><span>~</span> Is Foodera Bread really baked fresh each day?</h4>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+      </div>
+      <div className='col-lg-6'>
+        <h4><span>~</span> Is Foodera Bread really baked fresh each day?</h4>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.</p>
+      </div>
+    </div>
+
+     
+
+  </div>
+</section>
 
     </Fragment>
   )

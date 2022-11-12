@@ -314,5 +314,41 @@ background-color: #77132b;
 border:1px solid #77132b;
 margin: 5px 5px 15px 5px;
 border-radius: 50%;
+}
 
+/* questions section  */
+
+.questions h4{
+    color: #77132b;
+    font-family: 'Tajawal';
+    font-size: 22px;
+    margin: 15px 0;
+    font-weight: bold;
+    width: 100%;
+    max-width: 100%;
+}
+.questions p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    font-family: 'Tajawal';
+    margin-top: 15px;
+}
+.questions .qhead{
+    width: 100%;
+    text-align: center;
+    color: #77132b;
+    font-family: 'Tajawal';
+    font-size: 38px;
+    margin: 20px 0;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.questions span{
+    color: #f98169;
+    font-size: 28px;
+    font-family: ubuntu;
+    font-weight: 300;
+    vertical-align: middle;
 }
