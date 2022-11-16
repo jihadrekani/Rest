@@ -5,6 +5,10 @@ nav{
     max-width: 100%;
     border-radius: 0px;
     padding-top:-22px !important ;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    position: fixed !important;
+    z-index: 20;
 }
 
 nav a{

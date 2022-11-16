@@ -9,6 +9,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import person1 from '../../images/person1.jpg'
 import person2 from '../../images/person2.jpg'
 import person3 from '../../images/person3.jpg'
+import Footer from '../Footer/Footer'
 
 export default function Home() {
   const blogitems = Data.map((item)=>{
@@ -210,6 +211,7 @@ and get 25% Off</h2>
     </div>
   </div>
 </section>
+<Footer />
     </Fragment>
   )
 }
