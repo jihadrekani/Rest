@@ -18,6 +18,10 @@ nav a{
     letter-spacing: 1px;
 }
 
+nav a:hover{
+    border: 1px solid #059862 ;
+}
+
 nav img{
     height: auto;
     width: 50px;

@@ -13,13 +13,19 @@ footer{
 }
 
 .foo{
-    color: #222;
+    color: #eee;
 }
 .foo:hover{
     color: #444;
     text-decoration: none;
 }
+.svgcolor{
+    fill: #eee;
+}
 
+.svgcolor:hover{
+    fill: #444;
+}
 
 
 
