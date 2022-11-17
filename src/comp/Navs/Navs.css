@@ -20,6 +20,8 @@ nav a{
 
 nav a:hover{
     border: 1px solid #059862 ;
+    box-sizing: border-box;
+
 }
 
 nav img{
@@ -38,4 +40,8 @@ nav #lastnav:hover{
     background-color: transparent;
     color: #059862 !important;
     transition: .2s ease-in-out;
+}
+
+.imgg:hover{
+    border: none;
 }

@@ -6,8 +6,8 @@ export default function Navs() {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
-            <img src={logo} title="logo"/>
+        <Navbar.Brand className="imgg" href="#home">
+            <img  src={logo} alt="" title="logo"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

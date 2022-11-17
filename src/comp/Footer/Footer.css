@@ -1,31 +1,91 @@
 footer{
     background-color: #059862;
+    height: auto;
+    
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    animation: footerborder 6s infinite linear;
+
+    
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: footerborder;
 }
 
-.social{
+/* .social{
     display: flex;
     width: 100%;
     max-width: 100%;
     height: 50px;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 10px;
 
-}
+} */
 
 .foo{
     color: #eee;
+    text-align: center;
+    
 }
 .foo:hover{
-    color: #444;
-    text-decoration: none;
+    color: currentColor;
+
 }
-.svgcolor{
+.jihad{
+    border: 1px solid #0d8a5e;
+    border-radius: .5rem;
+    padding: 3px 6px;
+    /* padding: .375rem .75rem; */
+    margin: .2rem;
+    color:inherit;
+    text-align: center;
+    box-shadow: inset 0 0 2.5px 1px rgba(0,0,0,.5);
+    display: inline-block;
+
+}
+.jihad:hover{
+   color: #059862;
+   background-color: #eee;
+   cursor: pointer;
+   transition: all .5s;
+text-decoration: none;
+border: none;
+box-shadow: inset 0 0 2.5px 1px rgba(0,0,0,.5);
+font-size:18px ;
+
+}
+
+@media screen and (max-width: 395px){
+.foo{
+    font-size:13px ;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* .svgcolor{
     fill: #eee;
 }
 
 .svgcolor:hover{
     fill: #444;
-}
+} */
 
 
 
