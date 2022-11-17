@@ -1,5 +1,5 @@
 .numbers{
-    background-color: #a82d49;
+    background-color: #059862;
     padding: 25px 0;
     max-width: 100%;
     height: auto;
@@ -50,7 +50,7 @@
     font-weight: bold;
     margin: 10px 0;
     width: 90%;
-    color: #77132b;
+    color: #06462e;
     font-family: 'Tajawal';
     line-height: 50px;
     
@@ -66,8 +66,8 @@
 }
 .pride button ,
 .ingredients button {
-    background-color: #a82d49;
-    border: 1px solid #a82d49 ;
+    background-color: #059862;
+    border: 1px solid #059862 ;
     box-sizing: border-box;
     width: 140px;
     height: 40px;
@@ -89,7 +89,7 @@
 }
 .pride button:hover a ,
 .ingredients button:hover a{
-    color: #77132b;
+    color: #059862;
 }
 .pride button:hover ,
 .ingredients button:hover{
@@ -164,7 +164,7 @@
     font-weight: bold;
     margin: 10px 0;
     width: 100%;
-    color: #77132b;
+    color: #06462e;
     font-family: 'Tajawal';
     line-height: 50px;
 }
@@ -192,7 +192,7 @@ margin-right: auto;
     border: 1px solid #f6f6f6;
 }
 .blogs .box h5{
-    color: #77132b;
+    color: #06462e;
     font-family: 'Tajawal';
     font-size: 22px;
     font-weight: bold;
@@ -219,7 +219,7 @@ margin-right: auto;
 }
 
 .blogs .box h6{
-    color: #740c24;
+    color: #059862;
     font-size: 25px;
     font-family: 'Tajawal';
     font-weight: bold;
@@ -232,8 +232,8 @@ margin-right: auto;
 .blogs button {
     width: 94%;
     height: 40px;
-    background-color: #740c24;
-    border: 1px solid #740c24;
+    background-color: #059862;
+    border: 1px solid #059862;
     box-sizing: border-box;
     margin-top: 5px;
     margin-bottom: 25px;
@@ -270,14 +270,14 @@ margin-right: auto;
 
 .blogs button:hover a ,
 .subscribe button:hover a{
-    color: #740c24;
+    color: #059862;
 }
 
 /* slider section  */
 
 .slider{
-    background-color: #a82d49;
-    border: 1px solid #a82d49;
+    background-color: #059862;
+    border: 1px solid #059862;
     width: 100%;
     max-width: 100%;
     text-align: center;
@@ -309,7 +309,7 @@ line-height: 30px;
 }
 
 .slider .carousel-caption span{
-color: #77132b;
+color: #059862;
 display: block;
 margin: 15px 0;
 text-transform: uppercase;
@@ -344,8 +344,8 @@ list-style: none;
 .slider .carousel-indicators button{
 width: 15px;
 height: 15px;
-background-color: #77132b;
-border:1px solid #77132b;
+background-color: #059862;
+border:1px solid #059862;
 margin: 5px 5px 15px 5px;
 border-radius: 50%;
 }
@@ -353,7 +353,7 @@ border-radius: 50%;
 /* questions section  */
 
 .questions h4{
-    color: #77132b;
+    color: #059862;
     font-family: 'Tajawal';
     font-size: 22px;
     margin: 15px 0;
@@ -371,7 +371,7 @@ border-radius: 50%;
 .questions .qhead{
     width: 100%;
     text-align: center;
-    color: #77132b;
+    color: #06462e;
     font-family: 'Tajawal';
     font-size: 38px;
     margin: 20px 0;
@@ -380,7 +380,7 @@ border-radius: 50%;
 }
 
 .questions span{
-    color: #f98169;
+    color: #06462e;
     font-size: 28px;
     font-family: ubuntu;
     font-weight: 300;
@@ -400,7 +400,7 @@ border-radius: 50%;
 }
 
 .subscribe h2{
-    color: #740c24;
+    color: #06462e;
     font-family: 'Tajawal';
     font-size: 48px;
     margin: 15px 0;
@@ -425,8 +425,8 @@ border-radius: 50%;
     width: 140px;
     height: 50px;
     text-align: center;
-    background-color: #740c24;
-    border: 1px solid #740c24;
+    background-color: #059862;
+    border: 1px solid #059862;
     box-sizing: border-box;
     margin: 10px 0;
     transition: .3s ease-in-out;
@@ -448,6 +448,5 @@ border-radius: 50%;
     font-weight: 700;
     margin-right: 20px;
 }
-
 
 

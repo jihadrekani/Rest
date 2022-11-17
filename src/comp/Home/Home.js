@@ -139,7 +139,7 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
       <Carousel.Item>
         <img src={person1}     />
         <Carousel.Caption>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <span>The Cheff</span>
         </Carousel.Caption>
       </Carousel.Item>

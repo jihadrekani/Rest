@@ -1,5 +1,5 @@
 footer{
-    background-color: #77132b;
+    background-color: #059862;
 }
 
 .social{
@@ -13,10 +13,10 @@ footer{
 }
 
 .foo{
-    color: black;
+    color: #222;
 }
 .foo:hover{
-    color: white;
+    color: #444;
     text-decoration: none;
 }
 
