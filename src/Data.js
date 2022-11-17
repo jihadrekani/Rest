@@ -6,7 +6,7 @@ import blog3 from './images/3.jpg'
 const Data = [
     {
         img: blog1,
-        title: 'Rainbow Vegetable Sandwich',
+        title: ' Vegetable Sandwich',
         time: 'Time: 15 - 20 Minutes ',
         price: '$10.50'
     }
@@ -20,7 +20,7 @@ const Data = [
 ,
     {
         img: blog3,
-        title: 'Raspberry Stuffed French Toast',
+        title: 'Raspberry Stuffed ',
         time: 'Time: 10 - 15 Minutes ',
         price: '$12.50'
     }

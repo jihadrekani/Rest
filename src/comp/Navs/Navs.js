@@ -13,10 +13,9 @@ export default function Navs() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Explore Food</Nav.Link>
-            <Nav.Link href="#link">Review</Nav.Link>
-            <Nav.Link href="#link">Faq</Nav.Link>
+            <Nav.Link href="#ingredients">About</Nav.Link>
+            <Nav.Link href="#blogs">Explore Food</Nav.Link>
+            <Nav.Link href="#slider">Review</Nav.Link>
           </Nav>
           <Nav>
       <Nav.Link id="lastnav">

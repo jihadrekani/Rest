@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from './Header'
 import { Fragment } from 'react'
+import doner from '../../images/doner.jpg'
 import chicken from '../../images/chicken.jpg'
-import foods from '../../images/foods.jpg'
 import './Home.css'
 import Data from '../../Data'
 import Carousel from 'react-bootstrap/Carousel';
@@ -14,7 +14,7 @@ import Footer from '../Footer/Footer'
 export default function Home() {
   const blogitems = Data.map((item)=>{
     return(
-      <div className='col-md-4'>
+      <div  className='col-md-4'>
         <div className='box'>
           <img src={item.img}/>
           <h5>{item.title}</h5>
@@ -55,7 +55,7 @@ export default function Home() {
   <div className='container'>
     <div className='row'>
       <div className='col-md-6'>
-<img src={chicken} title="chicken"/>
+<img src={doner} title="chicken"/>
       </div>
       <div className='col-md-6'>
         <h2>
@@ -67,7 +67,7 @@ We pride ourselves on making real food from the best ingredients.</h2>
   </div>
 </section>
 
-<section className='ingredients'>
+<section id='ingredients' className='ingredients'>
   <div className='container'>
     <div className='row'>
       <div className='col-md-6'>
@@ -87,7 +87,7 @@ We pride ourselves on making real food from the best ingredients.</h2>
         <button><a href='#'>learn more</a></button>
       </div>
       <div className='col-md-6'>
-        <img src={foods} alt="ingredients"/>
+        <img src={chicken} alt="ingredients"/>
       </div>
     </div>
   </div>
@@ -109,7 +109,7 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
 </section>
 {/* blog section */}
 
-<section className='blogs'>
+<section id='blogs' className='blogs'>
   <div className='container'>
     <div className='row'>
       <div className='col-md-12 col-lg-12'>
@@ -124,7 +124,7 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
 </section>
 
 {/* slider section */}
-<section className='slider'>
+<section id='slider' className='slider'>
 <div className='container'>
   <div className='row'>
     <div className='col-lg-12 col-md-12'>
@@ -139,7 +139,7 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
       <Carousel.Item>
         <img src={person1}     />
         <Carousel.Caption>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <span>The Cheff</span>
         </Carousel.Caption>
       </Carousel.Item>
@@ -160,7 +160,7 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
 
         <Carousel.Caption>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit..
           </p>
           <span>The Cheff assistant</span>
 

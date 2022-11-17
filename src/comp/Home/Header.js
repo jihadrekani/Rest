@@ -2,8 +2,8 @@ import React from "react";
 import "./Header.css";
 export default function Header() {
   return (
-    <header>
-      <div className="container">
+    <header id='home'>
+      <div  className="container">
         <div className="row">
           <div className="col-md-6">
             <h2>Good food choices are good investments. </h2>
