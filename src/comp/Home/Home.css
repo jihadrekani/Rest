@@ -5,6 +5,7 @@
     height: auto;
     text-align: center;
     overflow: hidden;
+    margin-top: 25px;
 }
 .numbers .row{
     margin: 10px 0;
@@ -71,8 +72,9 @@
     width: 140px;
     height: 40px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     transition: .2 ease;
+    margin-bottom: 25px;
 
 }
 
@@ -98,7 +100,7 @@
 
 
 .ingredients ul li{
-    list-style-type: square;
+    list-style-type: none;
     font-family: "Tajawal";
     color: #333;
     margin-top: 10px;
@@ -110,11 +112,11 @@
 /* ---paralex-- */
 
 .paralex{
-    background-image: url('../../images/paralex.jpg')   ;
+    background-image: url('../../images/handmade.jpg')   ;
     background-size: cover;
     width: 100%;
     height: auto;
-    padding: 50px 0;
+    padding: 150px 0;
     text-align: center;
     
 }
@@ -129,7 +131,7 @@
 }
 
 .paralex p{
-    color: #444;
+    color: #555;
     margin:20px 0;
     line-height: 28px;
     
@@ -174,8 +176,10 @@
     margin-top: 15px;
 }
 .blogs .box img{
-    max-width: 100%;
-
+    max-width: 94%;
+    display: flex;
+margin-left: auto;
+margin-right: auto;
 }
 .blogs .box{
     width: 100%;
@@ -191,8 +195,11 @@
     color: #77132b;
     font-family: 'Tajawal';
     font-size: 22px;
-    margin: 15px 0;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 94%;
 }
 
 .blogs .box span{
@@ -200,9 +207,14 @@
     color: #444;
      font-family: 'Tajawal';
      font-size: 16px;
-     margin: 10px 0;
+     /* margin: 10px 0; */
      text-transform: uppercase;
      letter-spacing: 1px;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
 
 }
 
@@ -211,17 +223,25 @@
     font-size: 25px;
     font-family: 'Tajawal';
     font-weight: bold;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
 
 }
 .blogs button {
-    width: 140px;
+    width: 94%;
     height: 40px;
-    text-align: center;
     background-color: #740c24;
     border: 1px solid #740c24;
     box-sizing: border-box;
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     transition: .3s ease-in-out;
+    margin-left: 10px;
+    margin-right: auto;
+    
+    
 }
 
 /* blog with subscribe have common button */
@@ -235,6 +255,10 @@
     font-weight: bold;
     text-decoration: none !important;
     letter-spacing: 1px;
+  
+
+  
+
 }
 .blogs button:hover ,
 .subscribe button:hover{
@@ -256,6 +280,7 @@
     text-align: center;
     padding: 50px 0;
     margin: 50px 0;
+    
 
 }
 .slider img{
@@ -286,6 +311,7 @@ display: block;
 margin: 15px 0;
 text-transform: uppercase;
 font-size: 17px;
+font-weight: bold;
 
 }
 
