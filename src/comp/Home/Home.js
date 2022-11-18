@@ -102,7 +102,7 @@ We pride ourselves on making real food from the best ingredients.</h2>
 difference whether he is rich or poor.</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio<br/>
 finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
-<a href='#'>Watch Our Story</a>
+<a className='ourstory' href='#'>Watch Our Story</a>
       </div>
     </div>
   </div>
