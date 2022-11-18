@@ -11,6 +11,7 @@ import person2 from '../../images/person2.jpg'
 import person3 from '../../images/person3.jpg'
 import Footer from '../Footer/Footer'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Home() {
   const blogitems = Data.map((item)=>{
     return(
