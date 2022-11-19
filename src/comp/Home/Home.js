@@ -5,7 +5,7 @@ import doner from '../../images/doner.jpg'
 import chicken from '../../images/chicken.jpg'
 import './Home.css'
 import Data from '../../Data'
-import Carousel from 'react-bootstrap/carousel';
+import Carousel from 'react-bootstrap/Carousel';
 import person1 from '../../images/person1.jpg'
 import person2 from '../../images/person2.jpg'
 import person3 from '../../images/person3.jpg'
