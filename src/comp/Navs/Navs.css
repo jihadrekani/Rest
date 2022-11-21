@@ -9,13 +9,19 @@ nav{
     border-bottom: 1px solid gray;
     position: fixed !important;
     z-index: 20;
+
+    
+
+    
 }
+
 
 nav a{
     color: #059862 !important;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    float: right;
 }
 
 nav a:hover{
@@ -26,7 +32,7 @@ nav a:hover{
 
 nav img{
     height: auto;
-    width: 40px;
+    width: 50px;
     max-width: 100%;
 }
 nav #lastnav{
@@ -34,6 +40,7 @@ nav #lastnav{
     box-sizing: border-box;
     background-color: #059862;
     color: #fff !important;
+    margin-left: 2px;
 
 }
 nav #lastnav:hover{

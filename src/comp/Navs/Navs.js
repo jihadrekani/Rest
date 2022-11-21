@@ -6,12 +6,10 @@ export default function Navs() {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand className="imgg" href="#home">
-            <img  src={logo} alt="" title="logo"/>
-        </Navbar.Brand>
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ml-auto ">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#ingredients">About</Nav.Link>
             <Nav.Link href="#blogs">Explore Food</Nav.Link>
@@ -23,6 +21,10 @@ export default function Navs() {
       </Nav.Link>
     </Nav>
         </Navbar.Collapse>
+
+        <Navbar.Brand className="imgg" href="#home">
+            <img  src={logo} alt="" title="logo"/>
+        </Navbar.Brand>
       </Container>
     </Navbar>
   );
