@@ -5,7 +5,7 @@ import doner from '../../images/doner.jpg'
 import chicken from '../../images/chicken.jpg'
 import './Home.css'
 import Data from '../../Data'
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 import person1 from '../../images/person1.jpg'
 import person2 from '../../images/person2.jpg'
 import person3 from '../../images/person3.jpg'
@@ -125,7 +125,8 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
 </section>
 
 {/* slider section */}
-<section id='slider' className='slider'>
+
+{/* <section id='slider' className='slider'>
 <div className='container'>
   <div className='row'>
     <div className='col-lg-12 col-md-12'>
@@ -172,7 +173,7 @@ finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
     </div>
   </div>
 </div>
-</section>
+</section> */}
 {/* questions section  */}
 <section className='questions'>
   <div className='container'>
