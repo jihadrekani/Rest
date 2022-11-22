@@ -6,9 +6,9 @@ import chicken from '../../images/chicken.jpg'
 import './Home.css'
 import Data from '../../Data'
 // import Carousel from 'react-bootstrap/Carousel';
-import person1 from '../../images/person1.jpg'
-import person2 from '../../images/person2.jpg'
-import person3 from '../../images/person3.jpg'
+// import person1 from '../../images/person1.jpg'
+// import person2 from '../../images/person2.jpg'
+// import person3 from '../../images/person3.jpg'
 import Footer from '../Footer/Footer'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -56,7 +56,7 @@ export default function Home() {
   <div className='container'>
     <div className='row'>
       <div className='col-md-6'>
-<img src={doner} title="chicken"/>
+<img src={doner} alt="" title="chicken"/>
       </div>
       <div className='col-md-6'>
         <h2>
